@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*********************/ 
+/* HEADER */ 
+/**********************/
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/1796736/pexels-photo-1796736.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+header p {
+	color: white;
+	display: inline-block;
+	font-size: 1.2rem;
+}
+
+.header-text-box {
+	position: absolute;
+	width: 70%;/*
+	display: flex;
+  	justify-content: center;
+  	align-items: center;*/
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	color: #fff;
+	font-size: 4.5rem;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.btn:link,
+.btn:visited {
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+	background-color: #DC8051;
+	border: 1px solid #DC8051;
+	color: #fff;
+	margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+	border: 1px solid #DC8051;
+	color: #DC8051;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+	border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+	border: 1px solid #cf6d17;
+	color: #fff;
+}
+
+
+/*********************/ 
+/* BOOKING FORM */ 
+/**********************/
+
+#booking-form {
+	background-color: #DC8051;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.search-div {
+	text-align: center;
+	padding-top: 3%;
+	color: red;
+}
+
+.search-button {
+	background-color: #fff;
+	color: #DC8051;
+	border: none;
+	width: 168px;
+}
+
+.dest-key, .loc-key, .date-key, .dur-key {
+	background-color: rgba(255,255,255,0.1);
+	margin-top: 12px;
+	margin-bottom: 9px;
+	padding: 6px 20px 7px;
+}
+
+#booking-form ::placeholder {
+	color: #fff;
+}
+
+#booking-form input[type=date] {
+    color: #fff;
+}
+
+#booking-form {
+	color: #fff;
+	font-weight: bold;
+}
+
+/*********************/ 
+/* FEATURES */ 
+/**********************/
+
+.features {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.feature-box {
+	text-align: center;
+}
+
+.feature-box p {
+	line-height: 200%;
+	margin-bottom: 16%;
+}
+
+.detail-of-service, .features-img {
+	margin-bottom: 8%;
+}
+
+/*********************/ 
+/* SERVICE AND NETWORK DETAILS */ 
+/**********************/
+
+#company-network-and-services-details {
+	background-color: #DC8051;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+.service-box {
+	color: white;
+	text-align: center;
+}
+
+.no-of-customers, .no-of-hotel-members, .no-of-tours, .no-of-cities {
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.satisfied-customers, .hotel-members, .tours, .cities {
+	margin-bottom: 8%;
+} 
