@@ -12,6 +12,11 @@
         <!-- CSS -->
         <link rel="stylesheet" href="styles.css">
 
+        <!-- BOOTSTRAP SCRIPTS -->
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	</head>
 
 	<body>
@@ -19,13 +24,49 @@
 				<!-- HEADER -->
 
 		<header>
+
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light header-nav navbar-custom">
+			  <a class="navbar-brand" href="#"><img class="aventura-header-img" src="http://aventura.templaza.net/wp-content/uploads/2019/06/Lifes-a-journey1.png" alt="aventura-header-img"></a>
+			  <button class="navbar-toggler collapsible-navbar" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav navbar-right ul-head ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link color-me" href="#">HOME<span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link color-me" href="#">TOUR</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link color-me" href="#">DESTINATION</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link color-me" href="#">BRANCHES</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link color-me" href="#">SHOP</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link color-me" href="#">PAGES</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link color-me" href="#">CONTACT</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+
+
+
 			
 			<div class="header-text-box">
 
 				<p>LIFE'S A JOURNEY, TAKE YOUR DREAM</p>
 				<h1 class="city-name">WE ARE ADVENTURA</h1>
-				<a class="btn btn-full" href="#">I Wanna Travel</a>
-				<a class="btn btn-ghost" href="#">Read More</a>
+				<a class="btn btn-full header-button" href="#">I Wanna Travel</a>
+				<a class="btn btn-ghost header-button" href="#">Read More</a>
 				
 
 			</div>
@@ -40,22 +81,22 @@
 				
 				<div class="row form-details">
 					
-					<div class="col-lg-3 col-md-6 col-md-12">
+					<div class="col-lg-3 col-md-6 col-sm-12">
 						Your Destination:<br>
 	  					<input class="dest-key" type="text" name="destination" placeholder="Enter a keyword here"><br>
 					</div>
 
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-3 col-md-6 col-sm-12">
 						Location:<br>
 	  					<input class="loc-key" type="text" name="location" placeholder="any"><br>
 					</div>
 
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-3 col-md-6 col-sm-12">
 						Departure Date:<br>
 	  					<input class="date-key" type="date" data-date-inline-picker="true" name="departure" placeholder="Any"><br>
 					</div>
 
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-3 col-md-6 col-sm-12">
 						Duration:<br>
 	  					<input class="dur-key" type="text" name="duration" placeholder="Any"><br>
 					</div>
@@ -141,41 +182,158 @@
 	</section>
 
 
+										<!-- CITIES AND OFFERS SECTION -->
 
+	<section class="container" id ="city-offers">
 
+		<h2 class="text-center city-offer-h2">POPULAR DESTINATIONS</h2>
 
-	<!-- ******************* TESTIMONIALS ******************* -->
+		<div class="row">
 
-	<section id="testimonials">
-		
-		<div class="row customer-image-grid">
-			
-				<figure class="col-lg-3 customer-testimonial-box">
-					<img class="customer-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/pexels-photo-24272.jpg" alt="singapore-travel">
-					<p></p>
-				</figure>
-			
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2017/04/17652606360_19f3a9e13d_k-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">NORTH AMERICA</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐⭐⭐- 6 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
 
-			
-				<figure class="col-lg-3 customer-testimonial-box">
-					<img class="customer-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/clem-onojeghuo-151794.jpg" alt="vancouver-travel">
-				</figure>
-			
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2017/04/agustin-diaz-185846-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">South America</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐⭐- 5 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
 
-			
-				<figure class="col-lg-3 customer-testimonial-box">
-					<img class="customer-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/clem-onojeghuo-210987.jpg" alt="sahara-splendour">
-				</figure>
-			
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2019/06/johan-mouchet-265594-unsplasha1-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">ITALIA</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐- 8 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
 
-			
-				<figure class="col-lg-3 customer-testimonial-box">
-					<img class="customer-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/pexels-photo-338201.jpg" alt="victoria-falls-travel">
-				</figure>
-			
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2019/06/jose-duarte-317893-unsplasha1-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">PORTUGAL</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐- 7 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
 
-		</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2019/06/mahkeo-222757-unsplasha1-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">SWEDEN</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐⭐- 4 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
 
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2019/06/aron-visuals-974734-unsplasha1-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">NORWAY</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐- 2 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2017/04/anthony-delanoix-48936-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">EURO</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐- 4 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2017/04/john-towner-125993-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">CENTRAL AMERICA</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐⭐⭐- 9 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2017/04/14862408852_d9fe7e864b_k-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">ASIA</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐⭐⭐- 12 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2017/04/3557881841_55fd3cd81e_o-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">AFRICA</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐- 6 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-12 city-offer-card" style="width: 18rem;">
+				<div class="card text-center">
+				  <img class="card-img-top" src="http://aventura.templaza.net/wp-content/uploads/2017/04/frances-gunn-41736-600x400.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">AUSTRALIA</h5>
+				    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+				    <p class="text-center city-offer-review-paragraph">⭐⭐⭐- 7 Reviews</p>
+				    <br>
+				    <a href="#" class="btn btn-primary">VIEW MORE</a>
+				  </div>
+				</div>
+			</div>
+
+	</div>
 
 	</section>
 
@@ -185,10 +343,92 @@
 
 
 
+					<!-- TESTIMONIALS -->
+
+
+	<section id="testimonials">
+		
+		<div id="testimonial-carousel" class="carousel slide" data-ride="false">
+		      
+		    <div class="carousel-inner">
+
+		        <div class="carousel-item active">
+
+		          	<h2>Singapore Travel</h2>
+					<p>⭐⭐⭐⭐⭐</p>
+					<img class="testimonial-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/pexels-photo-24272.jpg" alt="singapore-travel">
+					<em>Frederick Cook</em>
+					<p class="testimonial-paragraph">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br> diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br> aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation<br> ullamcorper.”</p>
+
+		        </div>
+
+		        <div class="carousel-item">
+
+		          	<h2>Vancouver Travel</h2>
+					<p>⭐⭐⭐⭐</p>
+					<img class="testimonial-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/clem-onojeghuo-151794.jpg" alt="vancouver-travel">
+					<em>Phillip Valcoulver</em>
+					<p class="testimonial-paragraph">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br> diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br> aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation<br> ullamcorper.”</p>
+
+		        </div>
+
+		        <div class="carousel-item">
+		        	
+					<h2>Sahara Splendour Travel</h2>
+					<p>⭐⭐⭐⭐</p>
+					<img class="testimonial-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/clem-onojeghuo-210987.jpg" alt="sahara-splendour">
+					<em>Henry Michael</em>
+					<p class="testimonial-paragraph">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br> diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br> aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation<br> ullamcorper.”</p>
+
+		        </div>
+
+		        <div class="carousel-item">
+		        	
+		        	<h2>Victoria Falls Travel</h2>
+					<p>⭐⭐⭐⭐</p>
+					<img class="testimonial-img" src="http://aventura.templaza.net/wp-content/uploads/2017/04/pexels-photo-338201.jpg" alt="victoria-falls-travel">
+					<em>Kristen Simmons</em>
+					<p class="testimonial-paragraph">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br> diam nonummy nibh euismod tincidunt ut laoreet dolore magna<br> aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation<br> ullamcorper.”</p>
+
+		        </div>
+
+		    </div>
+
+		      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		      </a>
+		      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		      </a>
+
+
+		</div>
+		
+	</section>
+
+
+							<!-- FOOTER -->
+
+	<footer>
+			<p class="text-center">Copyright & Templaza</p>
+			<br>
+			<img class="aventura-footer-img" src="http://aventura.templaza.net/wp-content/uploads/2019/06/Lifes-a-journey1.png" alt="aventura-footer-img">
+
+			<ul class="text-right footer-nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Private Policy</a></li>
+				<li><a href="#">Term of Use</a></li>
+				<li><a href="#">Site Map</a></li>
+			</ul>
+	</footer>
+
+
+	           
 
 
 
-	</body>
+
+</body>
 
 </html>
 
