@@ -314,7 +314,7 @@ footer {
 	}
 
 	.city-offer-row .col-sm-12 {
-		margin-left: auto;
+		margin-left: %20;
 		margin-right: auto;
 	}
 
