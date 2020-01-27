@@ -1,3 +1,4 @@
+
 * {
 	margin: 0;
 	padding: 0;
@@ -17,7 +18,7 @@ header {
 }
 
 .navbar-custom {
-	background-color: rgba(0, 0, 0, 1) !important;
+	background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
 .color-me {
@@ -47,7 +48,7 @@ header p {
 }
 
 .collapsible-navbar {
-	background-color: rgba(220, 128, 81, 0.8) ;
+	background-color: rgba(220, 128, 81, 0.8);
 }
 
 h1 {
@@ -281,7 +282,6 @@ footer {
 	text-decoration: none;
 }
 
-
 @media only screen and (max-width:420px) {
 	.header-text-box {
 		position: absolute;
@@ -312,7 +312,7 @@ footer {
 	.color-me {
 		margin-left: 22px;
 	}
-	
+
 	.city-offer-row .col-sm-12 {
 		margin-left: auto;
 		margin-right: auto;
@@ -320,6 +320,11 @@ footer {
 
 
 }
+
+
+
+
+
 
 
 
