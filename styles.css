@@ -9,7 +9,6 @@
 /**********************/
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/1796736/pexels-photo-1796736.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -314,7 +313,7 @@ footer {
 	}
 
 	.city-offer-row .col-sm-12 {
-		margin-left: %20;
+		margin-left: auto;
 		margin-right: auto;
 	}
 
