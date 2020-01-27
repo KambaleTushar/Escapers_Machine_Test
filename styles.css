@@ -11,7 +11,21 @@ header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/1796736/pexels-photo-1796736.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
 	height: 100vh;
+}
+
+.navbar-custom {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.color-me {
+    color: #fff !important;
+}
+
+.color-me:hover {
+	color: #DC8051 !important;
 }
 
 header p {
@@ -28,8 +42,12 @@ header p {
   	align-items: center;*/
 	
 	top: 50%;
-	left: 50%;
+	left: 45%;
 	transform: translate(-50%, -50%);
+}
+
+.collapsible-navbar {
+	background-color: rgba(220, 128, 81, 0.8) ;
 }
 
 h1 {
@@ -37,6 +55,11 @@ h1 {
 	font-size: 4.5rem;
 	margin-top: 0;
 	margin-bottom: 20px;
+}
+
+.header-button {
+	margin-top: 2%;
+	margin:bottom: 2%;
 }
 
 .btn:link,
@@ -169,3 +192,101 @@ h1 {
 .satisfied-customers, .hotel-members, .tours, .cities {
 	margin-bottom: 8%;
 } 
+
+
+/*********************/ 
+/* TESTIMONIALS */ 
+/**********************/
+
+#testimonials {
+	background-color: #DC8051;
+	color: #fff;
+	margin-top: 8%;
+	text-align: center;
+}
+
+#testimonials h2 {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.testimonial-img {
+	width: 20%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.testimonial-paragraph {
+	line-height: 2.5;
+}
+
+.carousel-item {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+/************************************/ 
+/* CITIES AND OFFERS SECTION */ 
+/************************************/
+
+#city-offers {
+	margin-top: 8%;
+}
+
+.city-offer-h2 {
+	font-weight: 900;
+	padding-bottom: 4%;
+}
+
+.city-offer-card {
+	margin: 2%;
+}
+
+.city-offer-review-paragraph {
+	color: grey;
+}
+
+/************************************/ 
+/* FOOTER */ 
+/************************************/
+
+footer {
+	background-color: #222222;
+	color: #C0C0C0;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.aventura-footer-img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-nav li {
+	color: #C0C0C0;
+	display: inline;
+	padding: 1%;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.footer-nav a {
+	color: #C0C0C0;
+}
+
+.footer-nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
